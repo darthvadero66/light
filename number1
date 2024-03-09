@@ -8,7 +8,6 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install curl tar wget clang pkg-config libssl-dev jq build-essential bsd
 -------------------------------------------------
 cd $HOME
-ver="1.18.3"
 sudo rm -rf /usr/local/go
 sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
 rm "go$ver.linux-amd64.tar.gz"
@@ -26,6 +25,7 @@ make install
 
 -------------------------------------------------
 celestia-appd version
+ver 3.2 66
 
 -------------------------------------------
 git clone https://github.com/celestiaorg/networks
@@ -63,7 +63,8 @@ sed -i 's/mode = \"full\"/mode = \"validator\"/g' $HOME/.celestia-app/config/con
 BOOTSTRAP_PEERS=$(curl -sL https://raw.githubusercontent.com/celestiaorg/networks/master/mamaki/bootstrap-peers.txt | tr -d '\n')
 
 --------------------------------------------------
-echo $BOOTSTRAP_PEERS
+echo $BOOTSTRAP_PEER
+boot strap
 ------------------------------------------------
 sed -i.bak -e "s/^bootstrap-peers *=.*/bootstrap-peers = \"$BOOTSTRAP_PEERS\"/" $HOME/.celestia-app/config/config.toml
 
@@ -75,7 +76,7 @@ sed -i 's/peer-gossip-sleep-duration *=.*/peer-gossip-sleep-duration = "2ms"/g' 
 max_num_inbound_peers=40 
 max_num_outbound_peers=10 
 max_connections=50
-
+never again 
 ----------------------------------------------------------------
 sed -i -e "s/^use-legacy *=.*/use-legacy = false/;\
 s/^max-num-inbound-peers *=.*/max-num-inbound-peers = $max_num_inbound_peers/;\
@@ -123,7 +124,6 @@ EOF
 sudo mv $HOME/celestia-appd.service /etc/systemd/system/
 
 ----------------------------------------------------
-sudo systemctl enable celestia-appd
 sudo systemctl daemon-reload
 sudo systemctl restart celestia-appd && journalctl -u celestia-appd -f -o cat
 
