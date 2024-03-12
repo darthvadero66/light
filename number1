@@ -17,11 +17,6 @@ cd $HOME
 cd celestia-app
 git checkout v0.6.0
 make install
-
--------------------------------------------------
-celestia-appd version
-ver 3.2 66
-
 -------------------------------------------
 git clone https://github.com/celestiaorg/networks
 go version 78.9
