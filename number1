@@ -25,7 +25,6 @@ CELESTIA_WALLET="LOVE ME "
 به عنوان مثال :
 CELESTIA_NODENAME="amir" 
 CELESTIA_WALLET="amir8372"
-CELESTIA_CHAIN="mamaki"
 ----------------------------------------------------------
 echo 'export CELESTIA_CHAIN='$CELESTIA_CHAIN >> $HOME/.bash_profile
 echo 'export CELESTIA_NODENAME='${CELESTIA_NODENAME} >> $HOME/.bash_profile
