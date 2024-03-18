@@ -12,11 +12,6 @@ echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >>
  https://github.com/celestiaorg/celestia-app.git
 cd celestia-ap
 ---------------------------------------
--------------------------------
-cd $HOME
-git clone https://github.com/celestiaorg/networks.git
-
---------------------------
 CELESTIA_NODENAME="ADRENO" 
 CELESTIA_WALLET="LOVE ME "
 اطلاعات  داخل "" رو پاک کنید(فقط خط اول و دوم) و اطلاعات خودتون رو قرار بدید
