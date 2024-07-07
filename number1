@@ -6,9 +6,7 @@ for github
  
 ----------------------------------------------------------
 echo 'export CELESTIA_CHAIN='$CELESTIA_CHAIN >> $HOME/.bash_profile
-echo 'export CELESTIA_NODENAME='${} >> $HOME/.bash_profile
--------------------------------------
-cp $HOME/networks/mamaki/genesis.json $HOME/.celestia-app/config/
+echo 'export 
 
 ---------------------------------------
 
