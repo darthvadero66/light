@@ -18,10 +18,7 @@ max_connections=50
 never again 
 ----------------------------------------------------------------
 sed -i -e "s/^use-legacy *=.*/use-legacy = falseconfig/config.toml
-
-------------------------------------------------
-pruning_keep_recent="100" 
-pruning_interval="10"
+="10"
 
 ------------------------------------------------------
 sed -i -e "s/^pruning *=.*/pruning = \"custom\"/;\
