@@ -7,10 +7,7 @@ max_num_outbound_peers=10
 max_connections=50
 never again 
 ----------------------------------------------------------------
-sed -i -e "s/^use-legacy *=.*/use-legacy = falseconfig/config.toml
-="10"
 
-------------------------------------------------------
 sed -i -e "s/^pruning *=.*/pruning = \"custom\"/;\
 s/^pruning-keep-recent *=.*/pruning-keep-recent = \"$pruning_keep_recent\"/;\
 s/^pruning-interval *=.*/pruning-interval = \"$pruning_interval\"/" $HOME/.celestia-app/config/app.toml
