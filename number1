@@ -17,7 +17,6 @@
 EOF
 
 ---------------------------------------------------
-sudo mv $HOME/celestia-appd.service /etc/systemd/system/
 
 ----------------------------------------------------
 sudo systemctl daemon-reload
