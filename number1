@@ -10,8 +10,6 @@ SNAP_NAME=$(curl -s https://snaps.qubelabs.io/celestia/ | \
 wget -O - https://snaps.qubelabs.io/celestia/${SNAP_NAME} | tar xf - \
     
 
--------------------------------------------------
-CTRL+C را فشار دهید تا لاگ ها متوقف شوند
 
 ---------------------------------
 قبل از ادامه، با کد زیر مطمئن شوید که به طور کامل با شبکه
