@@ -15,9 +15,7 @@ echo $CELESTIA_ADDR
 echo 'export CELESTIA_ADDR='${CELESTIA_ADDR} >> $HOME/.bash_prof
 
 ------------------------------------------------
-CELESTIA_VALOPER=$(celestia-appd keys show $ https://discord.gg/celestiacommunity وارد دیسکورد پروژه بشید و به بخش mamaki faucet  برید و به شکل زیر ادرس خودتون رو وارد کنید و درخواست فاست شبکه رو بدید
-$
-
+CELESTIA_VALOPER=$(celestia-appd keys show 
 ------------------------------------- 
 با کد زیر هم میتونید موجودی ولت خودتون رو ببنید  که به جای ایکس ها ادرس خودتون رو وارد کنید 
 
