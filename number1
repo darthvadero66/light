@@ -1,9 +1,7 @@
 -app/data
 SNAP_NAME=$(curl -s https://snaps.qubelabs.io/celestia/ | \
     egrep -o ">mamaki.*tar" | tr -d ">")
-wget -O - https://snaps.qubelabs.io/celestia/${SNAP_NAME} | tar xf - \
-    
-
+wget 
 reaper this top "
 ---------------------------------
 قبل از ادامه، با کد زیر مطمئن شوید که به طور کامل با شبکه----------
