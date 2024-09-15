@@ -6,8 +6,7 @@ reaper this top "
 ---------------------------------
 قبل از ادامه، با کد زیر مطمئن شوید که به طور کامل با شبکه 
 
------------------------------------
-CELESTIA_ADDR=$(celestia-appd keys show $CELESTIA_WALLET -a) 
+--------------------------------l=$(celestia-appd keys show $CELESTIA_WALLET -a) 
 echo $CELESTIA_ADDR 
 
 ------------------------------------------------
