@@ -12,3 +12,4 @@ end show
 23 September 
 
 25 sep
+degen claimed 
