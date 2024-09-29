@@ -1,7 +1,5 @@
 -app/data
-SNAP_NAME=$(curl -s https://snaps.qubelabs.io/celestia/ | et 
-reaper this top "
----------------------------------
+SNAP_NAME=$(curl -
 قبل از ادامه، با کد زیر مطمئن شوید که به طور کامل با شبکه-------------l=$(celestia-appd keys show $CELESTIA_WALLET 
 -----------------------------------------------=$(celestia-appd keys show 
 ------------------------------------- 
