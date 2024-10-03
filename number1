@@ -6,6 +6,5 @@ SNAP_NAME=$(curl -
 number 1
 number 2
 
-edit 2
-number 2
+edit 
 number 45
