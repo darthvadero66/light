@@ -1,4 +1,4 @@
--app/data
+add one sudo-app/data
 SNAP_NAME=$(curl -
 قبل از ادامه، با کد زیر مطمئن شوید که به طور کامل با شبکه-------------l=$(celestia-appd keys show $خودتون رو وارد کنید
 
